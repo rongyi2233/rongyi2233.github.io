@@ -1,0 +1,170 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"html/category.html",
+			"html/shoppingList.html",
+			"html/confirmOrder.html",
+			"fonts/mui.ttf",
+			"js/common.js",
+			"public/jquery-1.10.1.min.js",
+			"public/swiper-3.4.1.min.css",
+			"css/category.css",
+			"img/shopkeeper-icon@2x.png",
+			"public/swiper-3.4.1.jquery.min.js",
+			"css/common.css",
+			"img/fenlei@2x.png",
+			"img/zhaohuo@2x.png",
+			"img/jinhuodan@2x.png",
+			"public/assets/js/common.js",
+			"public/assets/js/jquery-1.10.1.min.js",
+			"public/swiper/swiper-3.4.1.min.css",
+			"public/assets/css/common.css",
+			"public/swiper/swiper-3.4.1.jquery.min.js"
+		],
+		"refer": [
+			"html/category.html",
+			"html/shoppingList.html",
+			"html/confirmOrder.html"
+		]
+	},
+	"html/category.html": {
+		"resources": [
+			"public/swiper-3.4.1.min.css",
+			"img/che_dianji@2x.png",
+			"img/model.png",
+			"img/掌柜icon@2x.png",
+			"img/che@2x.png",
+			"img/jinhuodan@2x.png",
+			"public/jquery-1.10.1.min.js",
+			"css/category.css",
+			"public/swiper-3.4.1.jquery.min.js",
+			"css/common.css",
+			"img/icon_FL_2_search@2x.png",
+			"img/fenlei@2x.png",
+			"img/zhaohuo@2x.png",
+			"fonts/mui.ttf",
+			"img/shopkeeper-icon@2x.png",
+			"index.html",
+			"img/active-bg.png",
+			"public/assets/js/jquery-1.10.1.min.js",
+			"public/swiper/swiper-3.4.1.min.css",
+			"public/assets/js/common.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"public/assets/css/common.css",
+			"public/swiper/swiper-3.4.1.jquery.min.js"
+		],
+		"refer": [
+			"index.html",
+			"html/shoppingList.html",
+			"html/personalCenter.html"
+		]
+	},
+	"html/shoppingList.html": {
+		"resources": [
+			"img/jia_B@2x.png",
+			"img/jian@2x.png",
+			"img/jia@2x.png",
+			"img/jian_B@2x.png",
+			"css/shoppingList.css",
+			"index.html",
+			"fonts/mui.ttf",
+			"img/xuanze@2x.png",
+			"img/shopkeeper-icon@2x.png",
+			"img/fenlei@2x.png",
+			"img/zhaohuo@2x.png",
+			"img/jinhuodan@2x.png",
+			"img/xuanze_b@2x.png"
+		],
+		"refer": [
+			"index.html",
+			"html/confirmOrder.html",
+			"html/category.html",
+			"html/personalCenter.html"
+		]
+	},
+	"html/confirmOrder.html": {
+		"resources": [
+			"img/fanhui-icon@2x.png",
+			"img/bg8@2x.png",
+			"css/confirmOrder.css",
+			"index.html",
+			"public/assets/js/jquery-1.10.1.min.js",
+			"img/jian@2x.png",
+			"img/querendingdan_2@2x.png",
+			"fonts/mui.ttf",
+			"public/swiper/swiper-3.4.1.min.css",
+			"img/model.png",
+			"public/assets/js/common.js",
+			"js/mui.min.js",
+			"img/jia@2x.png",
+			"css/mui.min.css",
+			"public/assets/css/common.css",
+			"img/xuanze@2x.png",
+			"public/swiper/swiper-3.4.1.jquery.min.js",
+			"img/querendingdan_1@2x.png",
+			"img/xuanze_b@2x.png"
+		],
+		"refer": [
+			"index.html",
+			"html/payDetails.html",
+			"html/useCoupons.html"
+		]
+	},
+	"html/personalCenter.html": {
+		"resources": [
+			"img/youhuiquan-icon@2x.png",
+			"img/zg_icon_4@2x_17.png",
+			"img/my-bg.png",
+			"img/zg_icon_2@2x_26.png",
+			"img/querendingdan_2@2x.png",
+			"img/zg_icon_3@2x.png",
+			"fonts/mui.ttf",
+			"img/tel@2x.png",
+			"img/add_icon@2x.png",
+			"img/lin@2x.png",
+			"img/zg_icon_1@2x.png",
+			"css/personalCenter.css",
+			"public/assets/js/jquery-1.10.1.min.js",
+			"img/shopkeeper-icon@2x.png",
+			"img/jinhuodan@2x.png",
+			"public/assets/js/common.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"img/fenlei@2x.png",
+			"public/assets/css/common.css",
+			"img/zhaohuo@2x.png"
+		],
+		"refer": [
+			"html/useCoupons.html"
+		]
+	},
+	"html/useCoupons.html": {
+		"resources": [
+			"img/fanhui-icon@2x.png",
+			"img/youhuiq_icon@2x.png",
+			"css/useCoupons.css",
+			"public/swiper/swiper-3.4.1.min.css",
+			"public/swiper/swiper-3.4.1.jquery.min.js"
+		]
+	},
+	"html/payDetails.html": {
+		"resources": [
+			"img/xuanze_b@2x.png",
+			"img/tixing-icon@2x.png",
+			"img/wx-9@2x.png",
+			"css/payDetails.css",
+			"img/fanhui-icon@2x.png",
+			"public/assets/js/jquery-1.10.1.min.js",
+			"public/swiper/swiper-3.4.1.min.css",
+			"public/assets/js/common.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"public/assets/css/common.css",
+			"img/xuanze@2x.png",
+			"public/swiper/swiper-3.4.1.jquery.min.js"
+		]
+	}
+}

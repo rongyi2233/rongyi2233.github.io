@@ -1,0 +1,113 @@
+#header{
+	vertical-align: middle;
+	background: #fff;
+	border-bottom: 1px solid #eeeeee;
+	box-shadow: none;
+	height: 1.28rem;
+	line-height: 1.28rem;
+}
+#header h1{
+	line-height: 1.28rem;
+}
+#header:after{
+	display:inline-block;
+    height:100%;
+    width:0;
+    vertical-align:middle
+}
+#header .backBtn{
+	vertical-align: middle;
+	display: inline-block;
+	width:17px;
+	height:18px;
+	background: url(../../public/assets/img/fanhui-icon@2x.png);
+	background-size: cover;
+}
+#content{
+	padding-top:1.28rem;
+    background: white;
+}
+#content h2{
+	border-bottom: 1px solid #eeeeee;
+	margin:0;
+}
+#content .realPay{
+	padding:.1rem 0 .1rem 1rem;
+	font-size: .26rem;
+	line-height: 2.2;
+	background: url(../../public/assets/img/tixing-icon@2x.png) no-repeat .2rem center/0.57rem .57rem;
+	color: #666;
+	border-bottom: 1px solid #eeeeee;
+}
+#content .realPay span{
+	color: #ff3d1d;
+}
+#content .payStyle h2{
+	font-size: .3rem;
+	color: #2b2b2b;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	padding-left: .2rem;
+}
+#content .payStyle .style-content{
+	height: 1.14rem;
+    line-height: 1.14rem;
+	position: relative;
+	border-bottom: 1px solid #eeeeee;
+}
+#content .payStyle .style-content label{
+	position: absolute;
+	right:0.2rem;
+	top:50%;
+	width: .36rem;
+	height: .36rem;
+	line-height: 0;
+	font-size: 0;
+	margin-top: -0.18rem;
+}
+#content .payStyle input[type=checkbox]{
+	visibility: visible;
+}
+#content .mui-checkbox input[type=checkbox]:checked:before{
+	color: #f8cc0b;
+}
+ #content .radio{
+ 	width:100%;
+ 	height:1.28rem;
+	position: absolute;
+	left:0rem;
+	top:0.11rem;
+	border: none;
+	z-index: 2;
+}
+ #content .radio input{
+ 	margin-top: 0.10rem;
+ }
+#content .payStyle dl{
+	padding-left:1rem;
+	line-height: 2;
+	background: url(../../public/assets/img/wx-9@2x.png) no-repeat .2rem center/0.67rem .59rem;
+}
+#content .payStyle dl dt{
+	font-size: .3rem;
+	color: #2b2b2b;
+}
+#content .payStyle dl dd{
+	font-size: .25rem;
+	color: #6d6d6d;	
+}
+#content .confirmPay{
+	border:none;
+	padding:0 .2rem;
+}
+#content .confirmPay p{
+	width:100%;
+	height: .86rem;
+	background: #FFD600;
+	border-radius: .15rem;
+	text-align: center;
+	line-height: .86rem;
+	font-size: .36rem;
+	color: #2b2b2b;
+	margin-top:0.92rem;
+}

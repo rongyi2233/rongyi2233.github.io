@@ -1,0 +1,316 @@
+#header h1{
+	font-weight: bold;
+}
+#header h1 span{
+	font-size: 18px;	
+}
+#header a.removeBtn{
+	border: none;
+	font-size: 14px;
+	color: #2B2B2B;
+}
+
+/*商品相关的样式*/
+#content{
+	background: #efeff4;
+	padding: 44px 0 96px;
+	overflow: scroll;
+}
+#content .order-details{
+	border-bottom: 1px solid #eee;
+	background: #fff;
+}
+#content .item{
+	padding:.2rem 0;
+	line-height: 1.5em;
+	border-bottom: 1px solid #eee;
+	margin:0 .2rem;
+	position: relative;
+	background: #fff;
+}
+#content .last-item{
+	border-bottom: none;
+}
+#content .item .left-checkbox{
+	position: absolute;
+	top:50%;
+	width: .36rem;
+	height: .36rem;
+	margin-top:-0.18rem;
+}
+#content .item .left-checkbox label{
+	line-height: 0;
+	font-size: 0;
+}
+#content .item dl{
+	overflow: hidden;	
+	padding:.1rem 0 .1rem .6rem;
+}
+#content .item dt{
+	width:1.28rem;
+	height:1.28rem;
+	position: relative;
+	float:left;
+	margin-right:0.3rem;
+}
+#content .item dt img{
+	height: 100%;
+	width: 100%;
+}
+#content .item dt p{
+	position: absolute;
+	width:95%;
+	height: 95%;
+	left:0;
+	top:0;
+	text-align: center;
+	line-height: 1.28rem;
+	font-size: .3rem;
+	background: #000;
+	color: #fff;
+	opacity: .5;
+	border-radius: 50%;
+}
+#content .item dd{
+	float:left;
+	width:4.5rem;
+	text-align: left;
+}
+#content .item dd:nth-of-type(1){
+	font-size: 0.28rem;
+	font-weight: 500;
+}
+#content .item dd:nth-of-type(1) span{
+	background: #FF5454;
+	color: #FFF;
+	border-radius: .05rem;
+	font-size: .2rem;
+	padding:.05rem;
+	margin-right: .05rem;
+}
+#content .item dd:nth-of-type(2){
+	font-size: 0.24rem;	
+}
+#content .item dd:nth-of-type(3){
+	font-size: 0.18rem;
+	color:#ef3f0e;
+	position: relative;
+}
+#content .item dd:nth-of-type(3) span{
+	font-size: 0.22rem;
+}
+#content .item dd:nth-of-type(3) em{
+	font-size: 0.3rem;
+}
+#content .item dd:nth-of-type(3) b{
+	font-size: 0.18rem;
+}
+#content .item button.decrease{
+	width:0.50rem;
+	height: 100%;
+	float: left;
+	background: #fff;
+	opacity: 1;
+	background:#fff url(../../public/assets/img/jian@2x.png) no-repeat center;
+	background-size:80% 70%;	
+}
+#content .item dd:nth-of-type(3) .unit{
+	color: #2B2B2B;
+}
+#content .item button.disdecrease{
+	width:0.50rem;
+	height: 100%;
+	float: left;
+	opacity: 1;
+	background:#fff url(../../public/assets/img/jian_B@2x.png) no-repeat center;
+	background-size:80% 70%;
+}
+input[type=checkbox]{
+	visibility: visible;
+}
+.mui-checkbox input[type=checkbox]:before, .mui-radio input[type=radio]:before{
+	font-size:0.46rem;
+}
+.mui-checkbox input[type=checkbox]:checked:before{
+	color: #f8cc0b;
+}
+#content .radio{
+	position: absolute;
+	left:-0.45rem;
+	top:0.7rem;
+}
+.mui-numbox .mui-input-numbox, .mui-numbox .mui-numbox-input{
+	border: none !important;
+}
+.settlement{
+	position: relative;
+} 
+.settlement .allChecked{
+	position: absolute;
+	left:-0.3rem;
+	top: 0.12rem;
+}
+.settlement i{
+	position: absolute;
+	left: 0.65rem;
+	top: 0px;
+}
+#content .item button.add{
+	width:0.50rem;
+	height: 100%;
+	float: left;
+	background: #fff;
+	opacity: 1;
+	background:#fff url(../../public/assets/img/jia@2x.png) no-repeat center;
+	background-size:80% 70%;
+}
+#content .item button.disadd{
+	width:0.50rem;
+	height: 100%;
+	float: left;
+	opacity: 1;
+	background:#fff url(../../public/assets/img/jia_B@2x.png) no-repeat center;
+	background-size:80% 70%;
+}
+#content .item button.mui-input-numbox{
+	float: left;
+	border:none !important;
+	line-height: normal;
+	font-size: .32rem;
+}
+#content .item div.mui-numbox{
+	background:#fff;
+	border:none;
+	position: absolute;
+	right: 0;
+	top: 35%;
+	width:1.8rem;
+	height:.58rem;
+	padding:0!important;
+}
+#content .item dd:nth-of-type(3) p span{
+	position: absolute;
+	right:-0.05rem;
+	top:-0.1rem;
+	background: #ff5417;
+	width:.28rem;
+	height:.28rem;
+	line-height: .3rem;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+	font-size: .18rem;
+}
+#content .item dd:nth-of-type(4){
+	font-size: 0.2rem;
+	color: #666;
+}
+#content .item dd:nth-of-type(4) span{
+	float: right;
+}
+#content .item dd:nth-of-type(4) em{
+	margin-right: 0.1rem;
+}
+#content .item dd:nth-of-type(4) i{
+	border-radius: 50%;
+	overflow: hidden;
+	height:0;
+	display: inline-block;
+	vertical-align: middle;
+	width:0;
+	font-size: 0;
+	margin-right: .05rem;
+	border:.03rem solid #000;
+}
+#content .item .mui-push-right:after{
+	content:"";
+}
+#content .total{
+	height:.7rem;
+	line-height: .7rem;
+	color:#999;
+	background: #fff;
+}
+#content .total em{
+	padding:0 .05rem;
+}
+#content .total span{
+	padding-right: .5rem;
+}
+#content .total span b{
+	color: #dd0404;
+}
+#content .total span i{
+	font-size: .3rem;
+	color: #ccc;
+	padding: 0 .15rem;
+}
+#content .prefer-inform{
+	height:.7rem;
+	position: relative;
+	line-height: .7rem;
+	margin: .1rem 0 60px;
+	background: #fff;
+}
+#content .prefer-inform span{
+	color:#434343;
+	position: absolute;
+	left:0.3rem;
+}
+#content .prefer-inform a{
+	color: #ff3d1d;
+	position: absolute;
+	right:0.3rem;
+}
+#footer .mui-checkbox input[type=checkbox]{
+	top:0.2rem;
+}
+ .settlement{
+	height: 48px;
+	background: #fff;
+	line-height: 48px;
+	text-align: center;
+	/*padding-top:.15rem;*/
+}
+.settlement .left-checkbox{
+	height: 100%;
+	font-size: .26rem;
+	margin: 0 .4rem 0 .2rem;
+}
+.settlement label{
+	font-weight: bold;
+}
+.settlement label img{
+	vertical-align: middle;
+}
+.settlement span{
+	font-size: .28rem;
+	color: #2b2b2b;
+	font-weight: bold;
+}
+.settlement em{
+	font-size: .22rem;
+	color: #ff3d1d;
+	font-weight: bold;
+}
+.settlement b{
+	font-size: .30rem;
+	color: #ff3d1d;
+	font-weight: bold;
+}
+.settlement .setBtn{
+	height: 100%;
+	background: #FFD600;
+	border: none;
+	border-radius: 0;
+	width:2.37rem;
+	font-size: .36rem;
+	font-weight: bold;
+}
+#footer{
+	height: 96px;
+	overflow: hidden;
+}
+#footer ul{
+	height: 48px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+    <title>搜索商品</title>
+    <script src="../../public/mui/js/mui.min.js"></script>
+    <link href="../../public/mui/css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="../../public/assets/css/common.css"/>
+    <script src="../../public/assets/js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+    <style type="text/css">
+    	body{
+    		background: #fff;
+    	}
+    	#header{
+    		position: relative;
+    	}
+    	#header form{
+    		height: 100%;
+    		vertical-align: middle;
+    		width: 88%;
+    		padding-left:12%;   		
+    	}
+    	#header input{   		
+    		color:#999;
+    		text-indent: 30px;
+    		font-size: 13px;
+    		height: 28px;
+    		vertical-align: middle;
+    		margin: 0;
+    		padding: 0;
+    		margin-bottom: 3px;
+    		background:#fff url(../../public/assets/img/icon_FL_2_search@2x.png) no-repeat 10px center/14px 14px;
+    		border-radius: 5px;
+    		border:none;
+    		font-family: "PingFangSC-Regular",SimHei,"Droid Sans",Helvetica,Arial,"sans-serif"!important;
+    	}
+    	#header .back{
+    		width:12%;
+    		height: 100%;
+    		text-align: center;
+    		position: absolute;
+    		left:0;
+    		top:0;
+    		line-height: 44px;
+    		padding:0;
+    		color: #000;
+    		font-size:15px;
+    		background: url(../../public/assets/img/fanhui-icon@2x.png) no-repeat center center/.3rem;
+    	}
+    	#header .search{
+    		width:12%;
+    		height: 100%;
+    		text-align: center;
+    		position: absolute;
+    		right:0;
+    		top:0;
+    		line-height: 44px;
+    		padding:0;
+    		color: #000;
+    		font-size:15px;
+    	}
+    </style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav"id="header">	    
+    	<form id="form" method="get"action="../category/category.html">
+    		<a class="mui-action-back back"></a>
+    		<input id="search" type="text" name="search" id="searchGoods" placeholder="搜索商品" />
+    		<a class="search simulationA"data-url="../category/category.html">搜索</a>
+    	</form>	
+	</header>
+	<script src="../../public/assets/js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$("#form").submit(function(){
+			var sSearch=$("#search").val();
+			sessionStorage.setItem("search",sSearch);
+		});		
+		setTimeout(function(){
+			$("#search").focus();
+		},500);
+		$(".search").on("tap",function(){			
+			var sSearch=$("#search").val();
+			sessionStorage.setItem("search",sSearch);
+		})
+	</script>
+</body>
+</html>

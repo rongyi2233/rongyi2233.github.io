@@ -1,0 +1,55 @@
+html{
+	font-size: 13.333vw;
+}
+
+body,html{
+	width:100%;
+	height:100%;
+	font-size:0.24rem;
+	/*background: #fff;*/
+	font-family: "PingFangSC-Regular",SimHei,"Droid Sans",Helvetica,Arial,"sans-serif"!important;
+}
+.mui-icon-back:before, .mui-icon-left-nav:before{
+	content: '';	
+}
+.mui-bar {
+	background-color: #fff;
+}
+
+.mui-bar .backBtn{
+	top: 13px;
+	left: 20px;
+	font-size: 0;
+	line-height: 0;
+	vertical-align: middle;
+	display: inline-block;
+	width:17px;
+	height:18px;
+	background: url(../../public/assets/img/fanhui-icon@2x.png) no-repeat left center/0.46rem;
+	background-size: cover;
+}
+.mui-title{
+	font-size: 20px;
+}
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0;
+	border-top: none;
+	padding-top: 2px;
+}
+.mui-table-view .active{
+	background: #fff url(../../public/assets/img/active-bg.png) repeat-y left center/0.66rem;
+}
+
+.mui-table-view .active div{
+	background: #fff url(../../public/assets/img/xuanze_b@2x.png) no-repeat right center/2.6rem;
+}
+.mui-table-view-cell:after{
+	left: 0;
+}
+.mui-media-body {
+	font-size: 18px;
+	padding-right: 2.4rem;
+}
+.mui-media-body .p1{
+	font-size: 14px;
+}

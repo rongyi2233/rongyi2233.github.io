@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>掌柜主页</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="icon" href="../../favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="../../public/mui/css/mui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../public/assets/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+	<header id="header">
+	    <div class="personal-title">
+	    	<dl>
+	    		<dt id="keeperStore">&nbsp;</dt>
+	    		<dd>掌柜：<span id="keeperName">&nbsp;</span></dd>
+	    	</dl>
+	    </div>
+	    <div class="myOrder">
+	    	<div class="order-title clearfloat">
+	    		<span class="l">我的订单</span>
+	    	</div>
+	    	<div class="order-details">
+	    		<ul>
+					<li><a class="simulationA"data-url="shopkeeperOrder.html?orderStatus=0"><span><img src="../../public/assets/img/zg_icon_1@2x.png"/></span><em>待付款</em></a></li>
+					<li><a class="simulationA" data-url="shopkeeperOrder.html?orderStatus=1"><span><img src="../../public/assets/img/zg_icon_2@2x_26.png"/></span><em>待收货</em></a></li>
+				</ul>
+	    	</div>	    		    	
+	    </div>
+	</header>
+	<div class="mui-content" id="content">
+	    <div class="my-message">
+			<ul class="mui-table-view">
+			    <li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="coupon.html">
+						<img class="mui-media-object mui-pull-left" src="../../public/assets/img/youhuiquan-icon@2x.png">
+						<div class="mui-media-body">
+							优惠券
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<img class="mui-media-object mui-pull-left" src="../../public/assets/img/linjiam@2x.png">
+					<div class="mui-media-body">
+						<span class="mui-pull-right linjia-money">0</span>
+						邻家币
+					</div>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="store.html">
+						<img class="mui-media-object mui-pull-left" src="../../public/assets/img/add_icon@2x.png">
+						<div class="mui-media-body">
+							店铺地址
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+					<a class="mui-navigate-right" href="../shopkeeper/aboutUs.html">
+						<img class="mui-media-object mui-pull-left" src="../../public/assets/img/lin@2x.png">
+						<div class="mui-media-body">
+							关于我们
+						</div>
+					</a>
+				</li>
+				<li class="mui-table-view-cell mui-media">
+						<img class="mui-media-object mui-pull-left" src="../../public/assets/img/tel@2x.png">
+						<div class="mui-media-body">
+							<span class="mui-pull-right tel"></span>
+							客服电话
+						</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<footer id="footer">
+		<ul>
+			<li class="simulationA" data-url="../category/category.html"><span><img src="../../public/assets/img/fenlei@2x.png"/></span><em>分类</em></li>
+			<li class="simulationA shoppingList" data-url="../cart/shoppingList.html"style="position: relative;"><span><img src="../../public/assets/img/jinhuodan@2x.png"/></span><em>进货单</em></li>
+			<li class="simulationA" data-url="index.html"><span><img src="../../public/assets/img/shopkeeper.png"/></span><em>掌柜</em></li>
+		</ul>
+	</footer>
+	<script type="text/javascript" src="../../public/assets/js/jquery-1.10.1.min.js" ></script>
+    <script src="../../public/mui/js/mui.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript"src="../../public/assets/js/common.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
