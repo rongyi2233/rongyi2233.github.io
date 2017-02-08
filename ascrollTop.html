@@ -18,22 +18,25 @@
 		<a href="bgsize.html">百度搜索2500</a>
 		<a href="bgsize.html">百度搜索3000</a>
 		<script type="text/javascript">
-			if(window.localStorage.getItem("scrollTop")){
+			window.onload=function(){
+				if(window.localStorage.getItem("scrollTop")){
 				var scrollTop=window.localStorage.getItem("scrollTop");
 				window.localStorage.setItem("scrollTop",0);			
-			}else{
-				var scrollTop=0;
-			}
-			document.documentElement.scrollTop = scrollTop;
-			document.body.scrollTop = scrollTop;							
-			document.getElementsByTagName("body")[0].onclick=function(event){
-				var event=event||window.event;
-				var target=event.target||event.srcElement;
-				if(target.nodeName.toLowerCase() == 'a'){
-					var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-					window.localStorage.setItem("scrollTop",scrollTop);
+				}else{
+					var scrollTop=0;
 				}
-			}
+				document.documentElement.scrollTop = scrollTop;
+				document.body.scrollTop = scrollTop;							
+				document.getElementsByTagName("body")[0].onclick=function(event){
+					var event=event||window.event;
+					var target=event.target||event.srcElement;
+					if(target.nodeName.toLowerCase() == 'a'){
+						var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+						window.localStorage.setItem("scrollTop",scrollTop);
+					}
+				}
+				
+			}			
 		</script>
 	</body>
 </html>
