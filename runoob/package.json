@@ -1,0 +1,20 @@
+{
+  "name": "runoob",
+  "version": "1.0.0",
+  "description": "Node.js测试模块",
+  "main": "nodeTest.js",
+  "scripts": {
+    "test": "make test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rongyi2233/rongyi2233.github.io.git"
+  },
+  "author": "rongyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rongyi2233/rongyi2233.github.io/issues"
+  },
+  "homepage": "https://github.com/rongyi2233/rongyi2233.github.io#readme"
+}
